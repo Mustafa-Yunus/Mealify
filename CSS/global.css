@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+button, .icon {
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.sec-padding {
+  padding: 6rem 0;
+}
+.clear-fix {
+  clear: both;
+}
+/* Special to this project */
+body {
+  color: #212529;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #eeeeee;
+}
+::selection {
+  background-color: #d85454;
+  color: #fff;
+}
+.active {
+  color: #ce1212;
+}
+.container {
+  width: 85%; 
+  margin: 0 auto;
+}
+.Main-header {
+  text-align: center;
+  margin: 50px auto;
+}
+.Main-h2 {
+  font-size: 14px;
+  color: #7f7f90;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+.Main-p {
+  font-size: 50px;
+  font-family: "Amatic SC", sans-serif;
+}
+
+
+
+
+
+
